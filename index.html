@@ -1228,12 +1228,31 @@ document.querySelectorAll('.nav-item').forEach(btn => {
   btn.onclick = () => switchTab(btn.dataset.tab);
 });
 
-/* Speech Synthesis */
+/* Speech Synthesis (TTS) - Tối ưu giọng tiếng Việt chuẩn trên mọi thiết bị */
+let viVoice = null;
+function getViVoice(){
+  if(!('speechSynthesis' in window)) return null;
+  const vs = window.speechSynthesis.getVoices();
+  return vs.find(v => (v.lang === 'vi-VN' || v.lang.startsWith('vi')) && (v.name.includes('Google') || v.name.includes('Natural') || v.name.includes('HoaiMy') || v.name.includes('NamMinh')))
+      || vs.find(v => v.lang === 'vi-VN' || v.lang.startsWith('vi'))
+      || null;
+}
+if('speechSynthesis' in window){
+  window.speechSynthesis.onvoiceschanged = () => { viVoice = getViVoice(); };
+  viVoice = getViVoice();
+}
+
 function speakText(txt){
-  if(!('speechSynthesis' in window)){ toast('Thiết bị không hỗ trợ phát âm'); return; }
+  if(!('speechSynthesis' in window)){ toast('Thiết bị hoặc trình duyệt không hỗ trợ phát âm'); return; }
   window.speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(txt);
-  u.lang = 'vi-VN'; u.rate = 0.95;
+  u.lang = 'vi-VN';
+  u.rate = 0.92;
+  u.pitch = 1.0;
+  if(!viVoice) viVoice = getViVoice();
+  if(viVoice){
+    u.voice = viVoice;
+  }
   window.speechSynthesis.speak(u);
 }
 
