@@ -1,0 +1,7 @@
+# Builder and temporary scripts
+builder/
+*.py
+*.bak
+ChongLua101_backup.html
+.vscode/
+.idea/

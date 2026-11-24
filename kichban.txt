@@ -1,0 +1,57 @@
+# KỊCH BẢN THUYẾT TRÌNH & HỆ THỐNG 10 TÌNH HUỐNG LỪA ĐẢO
+## ĐỀ 4: LÁ CHẮN SỐ (Hackathon Đồng Nai 2026)
+
+### BẢNG TỔNG HỢP 10 KỊCH BẢN MÔ PHỎNG CHI TIẾT
+
+STT	Tên kịch bản	Nền tảng giả lập	Kẻ gian giả mạo	Thủ đoạn của kẻ gian	Dấu hiệu nhận biết (Cờ đỏ 🚩)	Bài học / Quy tắc cốt lõi
+1	Cuộc gọi từ “công an”	Zalo	Thượng úy Trần Minh Đức	Dọa số CCCD dính líu rửa tiền 1,2 tỷ; gửi lệnh tạm giam giả; bắt giữ bí mật; ép cài app VNeID-update.apk và chuyển tiền vào "tài khoản tạm giữ".	• Nhắn tin qua Zalo số lạ.
+• Ép cài tệp APK ngoài kho ứng dụng.
+• Đòi chuyển tiền xác minh.	Công an thật không làm việc qua mạng, chỉ gửi giấy triệu tập trực tiếp; KHÔNG BAO GIỜ đòi chuyển tiền.
+2	Việc nhẹ lương cao	Telegram	Chị Ngọc - HR Tuyển dụng	Tuyển CTV thả tim video nhận 50k thật để tạo lòng tin; sau đó dụ vào nhóm VIP nạp 500k -> nạp 5 triệu; báo "lỗi cú pháp, đóng băng tài khoản" ép nạp thêm.	• Việc nhẹ lương cao 300k-1tr/ngày.
+• Phải nạp tiền mới được nhận nhiệm vụ.
+• Đóng băng tiền ép nạp thêm.	Việc làm thật trả lương cho bạn – không bao giờ bắt bạn nộp tiền trước để được làm. (Dẫn chứng vụ Đồng Nai tiếp nhận 85 người bị lừa).
+3	Trúng thưởng iPhone	SMS Brandname	SieuSale Tri ân	Tin nhắn SMS Brandname báo trúng iPhone 17 Pro Max; hối thúc nhận trước 23h59; link sieusale-trian.vip đòi đóng 299k phí ship và đòi đăng nhập Facebook cướp OTP.	• Trúng thưởng chưa từng tham gia.
+• Tên miền lạ (.vip, .xyz).
+• Đòi nhập OTP hoặc nộp phí nhận quà.	Trúng thưởng mà đòi phí hoặc đòi OTP = lừa đảo. OTP là chìa khóa két sắt tuyệt đối không đưa cho ai.
+4	Học bổng “trong mơ”	Email	Global Youth Exchange	Báo trúng học bổng đi Hàn Quốc dù không nộp đơn; gửi thư mời giả; ép chuyển 4.500.000đ "phí giữ suất & bảo lãnh visa" vào STK cá nhân trong 48h.	• Trúng tuyển dù chưa từng nộp hồ sơ.
+• Dùng Gmail miễn phí.
+• Thu tiền vào STK cá nhân.	Học bổng thật cấp tiền cho sinh viên, không thu tiền "giữ suất". Luôn xác minh qua Phòng Đào tạo / Nhà trường.
+5	Bạn thân mượn tiền gấp	Messenger	Minh Anh - Bạn cùng lớp	Hack nick Facebook bạn thân; nhắn mượn 3 triệu đóng viện phí cấp cứu gấp; né nghe máy; dùng Deepfake video call 4 giây khẩu hình lệch tiếng.	• Nhờ chuyển vào STK người khác.
+• Né gọi điện thoại trực tiếp.
+• Video call ngắn, hình mờ giật lag.	Ai mượn tiền qua mạng – kể cả người thân – hãy gọi thẳng vào số điện thoại thường đã lưu trong danh bạ để kiểm tra.
+6	Pass vé concert giá hời	Facebook	Thảo Vy - Hội pass vé	Pass vé VIP rẻ 50% do bận đột xuất; ép cọc 50% vì "nhiều người hỏi"; gửi ảnh CCCD mờ tạo uy tín; dụ chuyển tiền qua "Admin trung gian" quen biết (đồng bọn).	• Giá rẻ bất thường.
+• Ép chuyển cọc gấp.
+• Giới thiệu bên trung gian không rõ nguồn gốc.	Không chuyển cọc cho người lạ trên mạng. Chỉ mua qua kênh phân phối vé chính thức hoặc gặp trực tiếp soát vé.
+7	“Bắt cóc online”	Cuộc gọi thoại	Cán bộ điều tra	Đe dọa dính án ma túy; ép nạn nhân thuê phòng khách sạn ở 1 mình "cách ly điều tra", tắt định vị, cắt liên lạc bố mẹ; ép tự quay clip khóc lóc để tống tiền gia đình 300 triệu.	• Ép ở một mình, tắt định vị.
+• Cấm báo người thân (cô lập nạn nhân).
+• Ép quay clip khóc lóc xin tiền.	Kẻ bắt bạn giữ bí mật với gia đình chính là kẻ lừa đảo. Hãy phá thế cô lập: chạy ra chỗ đông người, gọi bố mẹ và 113.
+8	Tài khoản sắp bị khoá	Messenger	Page Support Center	Trang giả mạo báo tài khoản vi phạm bản quyền sẽ bị khóa sau 24h; gửi link phishing appeal-center-fb.top đòi nhập mật khẩu và mã xác thực 2 lớp (2FA).	• Đe dọa khóa tài khoản gấp.
+• Link lạ mạo danh Facebook.
+• Đòi mật khẩu và mã xác thực 2 lớp.	Không đăng nhập qua đường link trong tin nhắn. Muốn kiểm tra vi phạm, hãy tự mở ứng dụng chính thức vào phần Cài đặt.
+9	Lôi kéo làm nhiệm vụ online	Telegram	Admin Trang TMĐT / Media	Dụ giật đơn hàng Shopee/Lazada nâng cấp VIP; ép làm "nhiệm vụ liên hoàn/combo"; báo lỗi cú pháp đóng băng tiền ép nạp tiếp.	• Giật đơn hàng ảo hưởng hoa hồng khủng 30-50%.
+• Ép làm nhiệm vụ combo liên tiếp.
+• Số dư bị đóng băng, bắt nạp phí kích hoạt.	Nhiệm vụ nào bắt nộp tiền kích hoạt / giật đơn ảo đều là lừa đảo. Tiền hiển thị trong app chỉ là số ảo do kẻ gian điều khiển.
+10	Lừa đảo tình cảm (Romance Scam)	Zalo / Hẹn hò	Kỹ sư dầu khí / Việt kiều	Tán tỉnh yêu đương; báo gửi "thùng quà 50.000 USD và trang sức" về VN; kẻ thứ 2 xưng "Hải quan sân bay" dọa phạt, ép nộp phí 15 triệu để nhận.	• Quen qua mạng chưa gặp mặt gửi quà tiền tỷ.
+• Kèm ngoại tệ USD trong kiện hàng.
+• Xưng cán bộ Hải quan yêu cầu chuyển phí vào STK cá nhân.	Quà tặng nước ngoài không bao giờ chứa tiền mặt; cơ quan nhà nước không bao giờ thu phí hải quan qua số tài khoản cá nhân.
+
+---
+
+### II. KỊCH BẢN THUYẾT TRÌNH DEMO TRONG 3 PHÚT
+
+1. **Trang đăng nhập & Vai trò người dùng**:
+   - Nhập tên: Bác Nguyễn Văn An / Bạn Minh Khang.
+   - Chọn vai trò: "Người cao tuổi (65 tuổi)" -> Kích hoạt Chế độ chữ to + Giọng nói.
+2. **Kiểm tra nhanh & AI Phân tích tin nhắn (Màn 1 + Điểm cộng)**:
+   - Dán tin nhắn hoặc bấm Micro / Chọn mẫu tin nhắn.
+   - Các nút công cụ được đặt ngay ngắn phía dưới ô văn bản, chữ hiển thị rõ ràng 100%.
+   - Nhấn "AI Phân tích rủi ro" -> Bóc tách thủ đoạn, hiển thị điểm nguy cơ và phát loa đọc to.
+3. **Báo cáo Công an & SOS (Màn 2, 3 + Điểm cộng)**:
+   - Chuyển thẳng nội dung lừa đảo sang Cổng tin báo Công an tỉnh Đồng Nai.
+   - Gửi tin báo -> Nhận biên nhận điện tử #CADN-2026-xxxx chính thức.
+   - Bấm SOS gửi khẩn cấp cho con cái.
+4. **Bản tin chính thức Bộ Công an & Dashboard Tình nguyện (Màn 6)**:
+   - Đọc khuyến cáo mới nhất từ A05 về VNeID giả, Deepfake, Bắt cóc online.
+   - Xem số liệu thực tế tại Đồng Nai: 120 lượt báo cáo, 35% link giả tại Biên Hòa, Long Khánh.
+5. **Thử thách 10 tình huống & Cấp chứng chỉ số (Màn 4 & 5)**:
+   - Vượt qua 10 tình huống thực tế và nhận Chứng chỉ "Công dân số an toàn" chuẩn ảnh 1200x630.
